@@ -123,9 +123,8 @@ header nav li a {
     margin: 0 auto;
 }
 
-#project {
+.flex-item {
     border: 5px solid var(--fifth);
-    background-color: var(--first);
     color: var(--third);
     min-height: 250px;
     max-height: 150px;
@@ -138,19 +137,19 @@ header nav li a {
     background-size: 150%;
 }
 
-#project div {
+.flex-item div {
     padding: 6px 8px;
     display: block;
 }
 
-#project div h3 {
+.flex-item div h3 {
     color: var(--third);
     background-color: var(--fifth);
     padding: 20px;
     width: 139.97px;
 }
 
-#project div span {
+.flex-item div span {
     color: var(--third);
     background-color: var(--fifth);
     padding: 20px;
@@ -172,7 +171,28 @@ header nav li a {
     border-bottom: 5px solid var(--third);
 }
 
-#project:first-child {
+.flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
+}
+
+#surf {
+    background-image: url(./assets/surf.png);
+}
+
+#calculator {
+    background-image: url(./assets/calculator.png);
+}
+
+#led {
+    background-image: url(./assets/led.png);
+}
+
+#puzzle {
+    background-image: url(./assets/puzzle.png);
+}
+
+#run {
+    background-image: url(./assets/run.png);
+    background-position-x: center;
 }
