@@ -3,11 +3,11 @@
 }
 /* Here are the root colors that I will be choosing for my project */
 :root {
-    --first: red;
-    --second: white;
-    --third: black;
-    --fourth: blue;
-    --fifth: yellow;
+    --first: rgba(68,88,119,1);
+    --second: rgba(146,204,206,1);
+    --third: rgba(49,52,61,1);
+    --fourth: rgba(28,29,33,1);
+    --fifth: rgba(238,238,247,1);
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--third);
-    background-color: var(--second);
+    background-color: var(--fifth);
 }
 
 h1
@@ -26,11 +26,11 @@ h2 {
 p {
     margin: 0;
     font-size: 16px;
-    color: var(--fourth);
+    color: var(--first);
 }
 
 header {
-    background-color: var(--first);
+    background-color: var(--third);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -42,7 +42,7 @@ header h1 {
     font-size: 36px;
     padding: 5px 1% 5px 6%;
     color: var(--fourth);
-    background-color: var(--fifth);
+    background-color: var(--second);
     font-weight: bold;
 }
 
@@ -56,11 +56,11 @@ header nav li {
 
 header nav li a {
     text-decoration: none;
-    color: var(--third);
+    color: var(--second);
 }
 
 .banner {
-    background-color: var(--fourth);
+    background-image: url(./assets/pattern.png);
     display: flex;
     justify-content: flex-end;
     text-align: right;
@@ -96,8 +96,8 @@ header nav li a {
     text-align: right;
     padding-right: 15px;
     font-size: 4vw;
-    color: var(--fourth);
-    border-right: 5px solid var(--third);
+    color: var(--first);
+    border-right: 5px solid var(--first);
 }
 
 .page-split div {
@@ -124,7 +124,7 @@ header nav li a {
 }
 
 .flex-item {
-    border: 5px solid var(--fifth);
+    border: 5px solid var(--second);
     color: var(--third);
     min-height: 250px;
     max-height: 150px;
@@ -144,14 +144,14 @@ header nav li a {
 
 .flex-item div h3 {
     color: var(--third);
-    background-color: var(--fifth);
+    background-color: var(--second);
     padding: 20px;
     width: 139.97px;
 }
 
 .flex-item div span {
     color: var(--third);
-    background-color: var(--fifth);
+    background-color: var(--second);
     padding: 20px;
 }
 
@@ -164,11 +164,11 @@ header nav li a {
 }
 
 #contact address a {
-    color: var(--fourth);
+    color: var(--first);
     text-decoration: none;
     font-style: normal;
     font-size: 32px;
-    border-bottom: 5px solid var(--third);
+    border-bottom: 5px solid var(--first);
 }
 
 .flex-item:first-child {
