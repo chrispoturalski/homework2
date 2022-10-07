@@ -1,11 +1,30 @@
 * {
     box-sizing: border-box;
 }
-
+/* Here are the root colors that I will be choosing for my project */
 :root {
     --first: red;
-    --second: violet;
+    --second: white;
     --third: black;
     --fourth: blue;
     --fifth: yellow;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--third);
+    background-color: var(--second);
+}
+
+h1
+h2 {
+    margin: 0%;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--fourth);
 }
