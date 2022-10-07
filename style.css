@@ -105,6 +105,12 @@ header nav li a {
 }
 
 .page-split p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5em;
     margin-bottom: 20px;
 }
 
@@ -121,11 +127,12 @@ header nav li a {
     border: 5px solid var(--fifth);
     background-color: var(--first);
     color: var(--third);
-    min-height: 150px;
+    min-height: 250px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
+    margin: 0.5em;
     padding: 0 0 20px 0;
     text-decoration: none;
     background-size: 150%;
@@ -133,11 +140,14 @@ header nav li a {
 
 #project div {
     padding: 6px 8px;
+    display: block;
 }
 
 #project div h3 {
     color: var(--third);
     background-color: var(--fifth);
+    padding: 20px;
+    width: 139.97px;
 }
 
 #project div span {
