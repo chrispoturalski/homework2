@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --first: red;
+    --second: violet;
+    --third: black;
+    --fourth: blue;
+    --fifth: yellow;
+}
