@@ -113,9 +113,13 @@ nav a:hover {
 }
 
 #about p {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
     line-height: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 60px;
+    width: 90%;
+
 }
 
 .flex-container {
@@ -129,6 +133,7 @@ nav a:hover {
 
 .flex-item {
     border: 5px solid var(--second);
+    background-color: var(--first);
     color: var(--third);
     min-height: 250px;
     max-height: 150px;
@@ -157,6 +162,10 @@ nav a:hover {
     color: var(--third);
     background-color: var(--second);
     padding: 20px;
+}
+
+.flex-item:hover {
+    background-color: var(--fifth);
 }
 
 #contact address {
