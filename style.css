@@ -28,3 +28,33 @@ p {
     font-size: 16px;
     color: var(--fourth);
 }
+
+header {
+    background-color: var(--first);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 36px;
+    padding: 5px 1% 5px 6%;
+    color: var(--fourth);
+    background-color: var(--fifth);
+    font-weight: bold;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-flex;
+    font-size: 15px;
+    padding: 5px;
+    margin: 8px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: var(--third);
+}
