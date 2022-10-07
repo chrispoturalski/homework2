@@ -56,9 +56,15 @@ header nav li {
 
 header nav li a {
     text-decoration: none;
+    margin-right: 8px;
+    border-bottom: 5px solid var(--second) ;
     color: var(--second);
     font-size: 26px;
-    border-bottom: 5px solid var(--second);
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--first);
 }
 
 .banner {
@@ -106,14 +112,10 @@ header nav li a {
     flex: 0 0 77%;
 }
 
-.page-split p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+#about p {
     line-height: 1.5em;
     margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .flex-container {
