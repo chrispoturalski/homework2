@@ -74,3 +74,30 @@ header nav li a {
     padding: 2% 6%;
     justify-content: space-between;
 }
+
+.main-body {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-split {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page-split > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 4vw;
+    color: var(--fourth);
+    border-right: 5px solid var(--third);
+}
+
+.page-split div {
+    flex: 0 0 77%;
+}
