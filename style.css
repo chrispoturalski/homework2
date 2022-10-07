@@ -9,7 +9,7 @@
     --fourth: rgba(28,29,33,1);
     --fifth: rgba(238,238,247,1);
 }
-
+/*styles for entire body*/
 body {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body {
     color: var(--third);
     background-color: var(--fifth);
 }
-
+/*Changes text for all fonts not specfically targetd*/
 h1
 h2 {
     margin: 0%;
@@ -61,7 +61,7 @@ header nav li a {
     color: var(--second);
     font-size: 26px;
 }
-
+/*Changes the color once you hover*/
 nav a:hover {
     background-size: 100% 100%;
     color: var(--first);
@@ -74,7 +74,7 @@ nav a:hover {
     text-align: right;
     padding: 70px 95px 25px 0px;
 }
-
+/*I wasn't sure how to get the banner size to match the current stlye*/
 .banner h2 {
     font-size: 30px;
     background-color: var(--second);
@@ -82,7 +82,7 @@ nav a:hover {
     padding: 2% 6%;
     justify-content: space-between;
 }
-
+/*Changes width of elements in the main webpage*/
 .main-body {
     max-width: 88%;
     margin-left: auto;
@@ -107,7 +107,7 @@ nav a:hover {
     color: var(--first);
     border-right: 5px solid var(--first);
 }
-
+/* how I got the text to the left of the "about me"*/
 .page-split div {
     flex: 0 0 77%;
 }
@@ -121,7 +121,7 @@ nav a:hover {
     width: 90%;
 
 }
-
+/*targets main container for all five projects*/
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -130,6 +130,7 @@ nav a:hover {
     height: 100vh;
     margin: 0 auto;
 }
+/*stlyes each individual element*/
 
 .flex-item {
     border: 5px solid var(--second);
@@ -150,9 +151,10 @@ nav a:hover {
     padding: 6px 8px;
     display: block;
 }
-
+/*I struggled with this one, when I take off width=139.97px the background color extends 3/4 of entire div??*/
 .flex-item div h3 {
     color: var(--third);
+    font-size: 1.2em;
     background-color: var(--second);
     padding: 20px;
     width: 139.97px;
@@ -188,6 +190,7 @@ nav a:hover {
     min-height: 400px;
     flex-basis: 100%;
 }
+/*here was where I added all the images for the work section*/
 
 #surf {
     background-image: url(./assets/surf.png);
@@ -209,6 +212,8 @@ nav a:hover {
     background-image: url(./assets/run.png);
     background-position-x: center;
 }
+
+/*Here is where I completed the work screen*/
 
 @media screen and (max-width: 992px) {
     header {
@@ -236,6 +241,7 @@ nav a:hover {
         font-size: 7vw;
     }
 }
+/*When I targeted the #contact address, I was not able to get the list item to go in a column, did I compelte correctly?!*/
 
 @media screen and (max-width: 768px) {
     .flex-item,
